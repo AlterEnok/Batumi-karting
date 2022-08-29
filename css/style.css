@@ -1,0 +1,649 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+	
+	  background: #031923;
+    color: #fff;
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+   
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1306px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav{
+    padding-top: 43px;
+    padding-bottom: 33px
+    
+
+}
+
+.nav__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-top: -70px;
+    cursor: pointer;
+    margin-top: -40px;
+    width: 164px;
+    height: 112px;
+    
+}
+
+.nav__logo{
+	width: 194px;
+	height: 112px;
+}
+
+.navigation-list ul{
+   display: flex;
+   margin-top: -40px;
+}
+
+.navigation-list li{
+    margin-right: 42px;
+    
+}
+
+.navigation-list li:last-child{
+    margin-right: 0;
+}
+
+.navigation-list a{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    transition: color .2s linear;
+
+}
+
+.navigation-list a:hover{
+    color: #00FFA3;
+}
+
+
+
+.intro{
+    max-width: 1908px;
+    height: 499px;
+    margin-top: -30px;
+    padding-top: 100px;
+    background: url(../images/intro.png) no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+.intro__title{
+    
+   font-size: 58px;
+   font-weight: 400;
+   font-style: normal;
+   font-family: 'DotGothic16', sans-serif;
+   color: #fff;
+   text-align: center;
+   line-height: 84px;
+   margin-bottom: 24px;
+   
+}
+
+.intro__suptitle{
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro__btn{
+    display: flex;
+    justify-content: center;
+    
+    padding: 16px 48px;
+    width: 286px;
+    height: 59px;
+    background: linear-gradient(180deg, #00D8A4 0%, #009470 100%);
+    box-shadow: 6px 6px 17px rgb(3 23 32 / 46%);
+    border-radius: 20px 4px;
+    position: relative;
+    margin-left: 500px;
+    margin-bottom: 36px;
+    
+    
+}
+
+.intro__btn:hover{
+    background-color: #00D8A4;
+	color: #fff;
+	box-shadow: inset 0 0 0 3px #009470;
+
+}
+
+
+.carts__title{
+    font-size: 140px;
+    width: 270px;
+    opacity: 0.1;
+    top: -2.73%;
+    bottom: 79.93%;
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.name{
+    margin-left: 250px;
+    margin-bottom: 15px;
+}
+
+.name__2{
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+
+.text{
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+
+.carts__title2{
+    text-align: center;
+    float: right;
+    margin-top: -250px;
+    margin-right: 90px;
+    
+
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 84px;
+}
+
+.carts__suptitle:after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin-left: 1130px;
+    margin-top: -10px;
+    background-color: #fff;
+}
+
+.carts__suptitle{
+    text-align: center;
+    margin-top: -200px;
+    margin-right: -600px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+.photo{
+	width: 370px;
+	height: 370px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+
+}
+
+img{
+	width: 370px;
+    height: 470px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+/*booking*/
+
+
+
+
+.booking__intro{
+    max-width: 1920px;
+    height: 478px;
+    margin-top: -30px;
+    padding-top: 100px;
+    background: url(../images/intro2.png) no-repeat center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.booking__title::after{
+    content: "";
+    display: block;
+    width: 119px;
+    height: 3px;
+    margin-left: 370px;
+    margin-top: -20px;
+    background-color: #fff;
+    
+}
+
+.booking__title{
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 84px;
+    margin-left: 290px;
+   
+    margin-bottom: -15px;
+    
+}
+
+
+
+
+
+.one__click{
+    color: #fff;
+    font-size: 19px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-top: -15px;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.booking__title2{
+    font-family: 'DotGothic16';
+font-style: normal;
+font-weight: 400;
+font-size: 144px;
+line-height: 209px;
+float: right;
+margin-top: -150px;
+margin-right: 37px;
+}
+
+
+.booking__suptitle{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin-left: 300px;
+}
+
+.number__m{
+    display: flex;
+  flex-direction: column;
+  float: left;
+ text-align: center;
+ margin-left: 300px;
+        
+    
+   
+}
+
+.number__s{
+    font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+color: #00FFA3;
+margin-top: -65px;
+margin-bottom: 10px;
+text-align: center;
+margin-right: 380px;
+
+}
+
+.number__text__s{
+    text-align: center;
+    margin-right: 830px;
+}
+
+.number__text{
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 280px;
+    margin-top: -10px;
+}
+
+.number__minutes{
+    font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+color: #00FFA3;
+margin-top: 5px;
+margin-bottom: 20px;
+text-align: center;
+margin-right: 810px;
+
+
+
+
+}
+
+.intro__btn__booking{
+    display: flex;
+    justify-content: center;
+    
+    padding: 16px 48px;
+    width: 286px;
+    height: 59px;
+    background: linear-gradient(180deg, #00D8A4 0%, #009470 100%);
+    box-shadow: 6px 6px 17px rgb(3 23 32 / 46%);
+    border-radius: 20px 4px;
+    position: relative;
+    margin-left: 900px;
+    margin-bottom: 36px;
+    margin-top: -55px;
+}
+
+.intro__btn__booking:hover{
+    background-color: #00D8A4;
+	color: #fff;
+	box-shadow: inset 0 0 0 3px #009470;
+
+}
+
+/*features*/
+
+.features{
+    margin-bottom: 82px;
+}
+
+
+.features__title{
+    font-size: 140px;
+    width: 270px;
+    opacity: 0.1;
+    top: -2.73%;
+    bottom: 79.93%;
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 100px;
+    margin-left: 50px;
+
+}
+
+
+.features__title2{
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 84px;
+    float: right;
+    margin-right: 120px;
+    margin-top: -250px;
+
+}
+
+.features__suptitle{
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: -200px;
+}
+
+.features__suptitle::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin-left: 699px;
+    margin-top: -10px;
+    background-color: #fff;
+}
+
+.features__cards{
+   
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 10px;
+   grid-row-gap: 1em;
+   
+   
+    
+    
+    }
+
+    .features__img{
+        width: 513px;
+        height: 178px;
+        margin-top: -40px;
+        
+    }
+
+    .features__img6{
+        width: 400px;
+        height: 100px;
+        margin-top: -5px;
+    }
+
+    
+    /*contacts*/
+
+    .contacts__title{
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 84px;
+    margin-top: 32px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    
+    
+    }
+
+   
+
+    .contacts__title2{
+        float: right;
+        font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 209px;
+    opacity: 0.1;
+    margin-top: -130px;
+    margin-left: 150px;
+}
+
+.contacts__text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: -120px;
+    margin-right: 510px;
+    margin-bottom: 15px;
+    
+}
+.contacts__text::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    background-color: #fff;
+    margin-left: 300px;
+    margin-top: -15px;
+    margin-right: 70px;
+}
+
+
+.map__link{
+    margin-left: 850px;
+    margin-top: -250px;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.adress{
+    margin-left: 30px;
+    color: #00FFA3;
+}
+
+.adress__suptitle{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.tel{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.email{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.days{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.contacts__btn{
+    display: flex;
+    justify-content: center;
+    
+    padding: 16px 48px;
+    width: 286px;
+    height: 59px;
+    background: linear-gradient(180deg, #00D8A4 0%, #009470 100%);
+    box-shadow: 6px 6px 17px rgb(3 23 32 / 46%);
+    border-radius: 20px 4px;
+    position: relative;
+    margin-right: 400px;
+    margin-bottom: 56px;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+.contacts__btn:hover{
+    background-color: #00D8A4;
+	color: #fff;
+	box-shadow: inset 0 0 0 3px #009470;
+}
+
+/*footer*/
+
+.footer__nav{
+    padding-top: 43px;
+    padding-bottom: 33px
+}
+
+.footer__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer__logo{
+    
+     width: 194px;
+     height: 112px;
+     margin-right: 500px;
+     float: right;
+     margin-bottom: 100px;
+    
+     
+    
+}
+
+
+
+.logo__foot{
+    padding-top: -70px;
+    cursor: pointer;
+    margin-top: -50px;
+    margin-left: -300px;
+    margin-bottom: 50px;
+    width: 164px;
+    height: 112px;
+    
+}
+
+.text__end{
+    margin-left: -810px;
+    margin-top: -10px;
+}
+
+.social{
+    display: flex;
+   justify-content: space-between;
+   padding-right: 620px;
+   margin-left: 200px;
+   margin-top: -10px;
+
+
+}
+
+.company__foot{
+    font-size: 16px;
+    color: #00FFA3;
+    margin-left: -810px;
+    margin-top: 15px;
+}
+
+.social img{
+    width: 35px;
+    height: 35px;
+    
+    margin-left: 10px;
+   
+    
+}
+
+
+
+
+
+
